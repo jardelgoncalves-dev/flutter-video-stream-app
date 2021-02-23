@@ -8,6 +8,10 @@ class AssetsService {
   static async list() {
     return new Video().list()
   }
+
+  static async findOne(videoId) {
+    return new Video().get(videoId);
+  }
 }
 
 module.exports = AssetsService
