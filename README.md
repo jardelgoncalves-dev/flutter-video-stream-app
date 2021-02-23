@@ -40,7 +40,7 @@ Save this information well because we will use it in our project:
 </div>
 
 ## configuring project
-Com as chaves geradas é necessário adicioná-las ao projeto, veremos como fazer isso tanto na API como no Mobile respectivamente;
+With the generated keys it is necessary to add them to the project, we will see how to do this both in the API and in the Mobile respectively;
 
 - API
   In the `server` directory there is a` .env.sample` file, you must rename it to only `.env` and add the MUX information
